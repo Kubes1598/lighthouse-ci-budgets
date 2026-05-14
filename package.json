@@ -1,0 +1,15 @@
+{
+  "name": "lighthouse-ci-budgets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lighthouse CI with per-route performance budgets, wired into a PR gate.",
+  "scripts": {
+    "lhci": "lhci autorun",
+    "lhci:collect": "lhci collect",
+    "lhci:assert": "lhci assert"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.13.0"
+  },
+  "license": "MIT"
+}
